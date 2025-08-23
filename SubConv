@@ -1,9 +1,9 @@
 [custom]
-ruleset=INNER,[]IN-TYPE
-ruleset=PRIVATE,[]GEOSITE,PRIVATE
-ruleset=PRIVATE,[]GEOIP,PRIVATE
-ruleset=CN,[]GEOSITE,CN
-ruleset=CN,[]GEOIP,CN
+ruleset=INNER,[]IN-TYPE,DIRECT
+ruleset=PRIVATE,[]GEOSITE,DIRECT
+ruleset=PRIVATE,[]GEOIP,DIRECT
+ruleset=CN,[]GEOSITE,DIRECT
+ruleset=CN,[]GEOIP,DIRECT
 ruleset=MATCH,[]FINAL
 
 custom_proxy_group=PROXY`select`.*
