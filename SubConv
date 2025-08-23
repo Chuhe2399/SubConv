@@ -1,0 +1,12 @@
+[custom]
+ruleset=INNER,[]IN-TYPE
+ruleset=PRIVATE,[]GEOSITE,PRIVATE
+ruleset=PRIVATE,[]GEOIP,PRIVATE
+ruleset=CN,[]GEOSITE,CN
+ruleset=CN,[]GEOIP,CN
+ruleset=MATCH,[]FINAL
+
+custom_proxy_group=PROXY`select`.*
+
+enable_rule_generator=true
+overwrite_original_rules=true
