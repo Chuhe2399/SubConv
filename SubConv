@@ -4,7 +4,7 @@ ruleset=PRIVATE,[]GEOSITE,DIRECT
 ruleset=PRIVATE,[]GEOIP,DIRECT
 ruleset=CN,[]GEOSITE,DIRECT
 ruleset=CN,[]GEOIP,DIRECT
-ruleset=MATCH,[]FINAL
+ruleset=MATCH,[]PROXY
 
 custom_proxy_group=PROXY`select`.*
 
