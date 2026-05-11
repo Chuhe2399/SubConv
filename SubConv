@@ -7,7 +7,7 @@ ruleset=DIRECT,[]GEOIP,CN
 ruleset=PROXY,[]MATCH
 
 custom_proxy_group=PROXY`select`[]AUTO`[]SELECT
-custom_proxy_group=AUTO`url-test`^`https://i.ytimg.com/generate_204`30,,100
+custom_proxy_group=AUTO`url-test`.*
 custom_proxy_group=SELECT`select`.*
 
 enable_rule_generator=true
