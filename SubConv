@@ -8,6 +8,7 @@ ruleset=PROXY,[]MATCH
 
 custom_proxy_group=PROXY`select`.*
 custom_proxy_group=AUTO`url-test`^`https://i.ytimg.com/generate_204`30,,100
+custom_proxy_group=SELECT`select`.*
 
 enable_rule_generator=true
 overwrite_original_rules=true
